@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Control: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. Control"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nc"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Alumno"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semestre"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sem"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/buscar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/actualizar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/eliminar"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_alumnos">
+
+    <fragment
+        android:id="@+id/nav_alumnos"
+        android:name="mx.edu.ittepic.ladm_u1_practica2_almacenamientoarchivosplanos.ui.home.HomeFragment"
+        android:label="@string/menu_alumnos"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_agregar"
+        android:name="mx.edu.ittepic.ladm_u1_practica2_almacenamientoarchivosplanos.ui.gallery.GalleryFragment"
+        android:label="@string/menu_agregar"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_actualizar"
+        android:name="mx.edu.ittepic.ladm_u1_practica2_almacenamientoarchivosplanos.ui.actualizar.ActualizarFragment"
+        android:label="@string/menu_actualizar"
+        tools:layout="@layout/fragment_actualizar" />
+
+    <fragment
+        android:id="@+id/nav_eliminar"
+        android:name="mx.edu.ittepic.ladm_u1_practica2_almacenamientoarchivosplanos.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_eliminar"
+        tools:layout="@layout/fragment_slideshow" />
+
+</navigation>
